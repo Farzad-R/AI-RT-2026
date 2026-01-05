@@ -1,0 +1,30 @@
+# Core Data & Utilities
+numpy
+pandas
+python-dotenv
+tqdm
+
+# Visualization (Notebooks & Dashboard)
+matplotlib
+seaborn
+plotly
+
+# Vector Database & Embeddings
+qdrant-client
+sentence-transformers
+ragatouille
+torch
+fastembed
+
+# LLM & Orchestration
+openai
+langchain
+langchain-community
+langchain-openai
+
+# Application UI
+gradio
+
+# Jupyter Support
+ipykernel
+ipywidgets
