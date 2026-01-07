@@ -1,0 +1,111 @@
+question,src_id,is_relevant,difficulty
+Can I use my personal laptop on the Corp-Secure network?,0,True,Hard (Negation)
+Is alcohol covered in the travel meal allowance?,20,True,Hard (Negation)
+Does the standard plan cover root canals?,10,True,Medium (Specific Entity)
+"I'm in Sales, can I request a MacBook?",25,True,Hard (Role Exclusion)
+"I saved client data on my desktop, is that okay?",6,True,Hard (Negation)
+Do I get a referral bonus for hiring a former employee back?,12,True,Hard (Exclusion)
+Can I get my home internet bill fully paid for?,27,True,Medium (Negation)
+Are cosmetic procedures covered by our health insurance?,10,True,Hard (Exclusion)
+Can I push code directly to the main branch?,7,True,Hard (Negation)
+Is it okay to bring my dog to the office?,35,True,Medium (Negation)
+"I want to use a GPL-licensed library, do I need to do anything?",42,True,Hard (Condition)
+Will I get reimbursed if I fail my certification exam?,13,True,Medium (Negation)
+Can I install python packages straight from the internet?,3,True,Medium (Negation)
+Is my daily drive to the office reimbursable?,28,True,Hard (Negation)
+Can I speak to a reporter if they call me?,46,True,Hard (Negation)
+"I lost my phone, can I reset MFA remotely?",1,True,Medium (Condition)
+Can I fly Business Class to London (7 hours)?,21,True,Hard (Numeric Threshold)
+"I submitted my expense report 45 days late, will I get paid?",22,True,Medium (Numeric Logic)
+Booking a meeting room for 6 hours,31,True,Medium (Numeric)
+"I've been inactive on the VPN for 35 days, what happens?",2,True,Medium (Numeric)
+How long do I have to be employed to be vested in the 401k match?,18,True,Easy (Numeric)
+"I received a gift basket from a client worth $75, what should I do?",40,True,Hard (Numeric Threshold)
+"My code only has 70% unit test coverage, can I merge it?",7,True,Hard (Numeric Threshold)
+How quickly must I respond to a P1 alert when on call?,9,True,Medium (Temporal)
+What's the bereavement leave for a grandparent?,11,True,Medium (Specific Entity)
+"I need to buy a software license that costs $600, what is the procedure?",23,True,Medium (Numeric Threshold)
+"My friend completed 60 days of their probation, do I get my referral bonus now?",12,True,Hard (Numeric Threshold)
+"My expense was $20, do I need a receipt?",20,True,Easy (Numeric)
+When does the refrigerator get cleaned out?,39,True,Easy (Temporal)
+What is the maximum time I can book a conference room without special permission?,31,True,Easy (Numeric)
+After how many years is project data deleted permanently?,5,True,Hard (Multi-step Numeric)
+What is the fee if I lose my badge for a second time?,30,True,Medium (Numeric Condition)
+"I've worked here for 18 months. If I leave, what happens to the company's 401(k) contribution?",18,True,Hard (Numeric Inference)
+I submitted an expense report 70 days after the purchase. What happens?,22,True,Hard (Numeric Boundary)
+What is the minimum number of approvers for a pull request?,7,True,Easy (Numeric)
+Procedure for installing python packages,3,True,Easy
+Laptop water damage policy,24,True,Easy
+Is the ethics hotline confidential?,41,True,Easy
+Why can't I connect to the VPN anymore?,2,True,Medium (Inference)
+How do I get a new feature idea considered?,47,True,Medium (Paraphrase)
+What's the company's stance on working from public places?,15,True,Easy (Paraphrase)
+Who owns the code I write at work?,43,True,Medium (Inference)
+What is the expected behavior during core work hours?,37,True,Easy (Paraphrase)
+Information on the company's 401k plan,18,True,Easy
+How to handle a call from a journalist?,46,True,Medium (Paraphrase)
+Tell me about the review process.,16,True,Easy
+"I'm a new hire, how long until I'm a permanent employee?",17,True,Medium (Inference)
+What are the rules about changing the company logo's color?,44,True,Medium (Specific Detail)
+How does the company ensure reporting misconduct is safe?,41,True,Medium (Inference)
+What do I need to do if my manager and I start dating?,14,True,Medium (Condition)
+Why would I be responsible for paying for a broken work laptop?,24,True,Hard (Inference)
+What is the process after a major system failure?,9,True,Medium (Paraphrase)
+How long is customer data kept?,5,True,Medium (Specific Entity)
+What characters are our products designed for?,48,True,Medium (Paraphrase)
+Can I use my learning budget for next year if I don't use it now?,13,True,Hard (Negation)
+What's the target user persona for our manager-level users?,48,True,Hard (Specific Entity)
+What is the specific name of the secure wifi network?,0,True,Hard (Specific Entity)
+What is the specific name of the secure S3 bucket for PII?,6,True,Hard (Specific Entity)
+What happens to data in the beta environment after a test?,49,True,Hard (Specific Detail)
+Can I submit my proprietary algorithm to an AI code helper to refactor it?,8,True,Hard (Conditional Negation)
+How long does it take to get a new library approved for the internal mirror?,3,True,Medium (Numeric)
+What is the required notice period for a VP?,19,True,Hard (Role-based Logic)
+What is the company's contribution percentage to my 401k if I contribute 8% of my salary?,18,True,Hard (Numeric Calculation)
+Are there any situations where I can get a Macbook even if I'm in HR?,25,True,Hard (Exception)
+What specific action triggers the escalation of a P1 alert?,9,True,Hard (Specific Detail)
+Is there a difference in bereavement leave for a parent versus a grandparent?,11,True,Medium (Comparison)
+I'm working on a personal project on my work laptop after hours. Who owns the IP?,43,True,Hard (Inference)
+Can I wear shorts on a day I don't have any client meetings?,32,True,Medium (Negation)
+My manager approved my 6-hour room booking. Is that allowed?,31,True,Medium (Exception)
+What is the SLA for a P3 ticket?,4,True,Medium (Specific Entity)
+Do I have to register my spouse if they visit the office for lunch?,34,True,Medium (Inference)
+What is the one-time budget for setting up a home office?,29,True,Easy (Numeric)
+What is the key condition for reimbursement of a training course?,13,True,Medium (Condition)
+In what month are pay raises decided?,16,True,Medium (Temporal)
+Which open-source license type is pre-approved?,42,True,Hard (Specific Entity)
+How to configure the guest wifi password?,-1,False,Distractor
+What is the holiday schedule for next year?,-1,False,Distractor
+Can I expense a client dinner?,20,False,Hard Distractor
+What are the gym opening hours?,-1,False,Distractor
+How do I validate parking?,-1,False,Distractor
+What is the stock option vesting schedule?,-1,False,Hard Distractor
+How do I set up my corporate email on my phone?,0,False,Hard Distractor
+What is the policy on international roaming charges?,-1,False,Distractor
+Can I get a corporate discount on my personal mobile plan?,-1,False,Distractor
+Is there a company-sponsored marathon team?,-1,False,Distractor
+How do I request a new software license for my team?,23,False,Hard Distractor
+What are the approved vendors for catering a team lunch?,-1,False,Distractor
+What's the process for changing teams within the company?,-1,False,Hard Distractor
+Is there a policy on parental leave?,11,False,Hard Distractor
+How is the annual company bonus calculated?,-1,False,Distractor
+Can I change the standing desk at my office cubicle?,29,False,Hard Distractor
+Policy on taking a sabbatical,-1,False,Distractor
+Are flight upgrades reimbursable?,21,False,Hard Distractor
+What is the data deletion process when a customer requests it?,5,False,Hard Distractor
+Can I use the company's legal counsel for personal matters?,-1,False,Distractor
+How is the on-call rotation schedule determined?,9,False,Hard Distractor
+Can I use my learning stipend to attend a conference?,13,False,Hard Distractor
+Is it okay to store project documentation in Google Docs?,6,False,Hard Distractor
+What's the policy on employee discounts for our products?,-1,False,Distractor
+How do I get access to the staging environment?,-1,False,Hard Distractor
+"If I am on the Premium Plus plan, are my children's braces covered?",10,True,Hard (Exclusion)
+I am a Design team member. What laptop will I be issued?,25,True,Easy (Role Inclusion)
+I used my personal car to visit a client 50 miles away. Is that reimbursable?,28,True,Medium (Condition)
+My manager wants me to approve their pull request to 'main'. Is that compliant?,7,True,Hard (Inference)
+What is the maximum amount of time I can be unresponsive during core hours?,37,False,Hard Distractor
+Can I expense a bottle of wine during a business trip dinner?,20,True,Easy (Negation)
+What happens if I lose my badge for the third time?,30,True,Medium (Numeric Condition)
+I've been here 3 years and contribute 10% to my 401k. What's the company match?,18,True,Hard (Numeric Calculation)
+Can I alter the spacing of the elements in the company logo?,44,True,Hard (Negation)
+I need to view a Tier-1 document on my laptop on the train. Is this allowed if I use the VPN?,15,True,Hard (Multi-Condition)
